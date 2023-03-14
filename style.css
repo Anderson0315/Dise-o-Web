@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(185, 114, 226);
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid #0c0c0c;
+    border-radius: 5px;
+    background-color: #cec10d;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 5px solid #690299;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 95%;
+    padding: 10px;
+    border: 5px solid #5f06f0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  
+  input:invalid,
+  textarea:invalid,
+  select:invalid {
+    border: 1px solid #000000;
+  }
+  
+  input:valid,
+  textarea:valid,
+  select:valid {
+    border: 1px solid #000000;
+  }
+  
+  .invalid-feedback {
+    display: none;
+    color: #d30c0c; }
+  
